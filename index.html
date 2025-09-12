@@ -9,6 +9,19 @@
   <meta name="ppck-ver" content="95425ddd779c0d6feff25bc351c05433" />
   <meta name="clckd" content="45785c29379eb9c5e401c84d76100312" />
   <meta name="9e9800e04d310bec33bb474669f95130b52dbbf0" content="9e9800e04d310bec33bb474669f95130b52dbbf0" />
+
+<style>
+    /* By default: Show desktop ad, hide mobile ad */
+    .ad-desktop { display: block; }
+    .ad-mobile { display: none; }
+
+    /* On small screens (mobile ≤ 767px): Hide desktop, show mobile */
+    @media (max-width: 767px) {
+      .ad-desktop { display: none; }
+      .ad-mobile { display: block; }
+    }
+  </style>
+	
   <title>Cosplay Vault</title>
   <link rel="stylesheet" href="css/style.css">
 
